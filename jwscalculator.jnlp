@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<jnlp codebase="http://116.204.84.48:8080/jwscalculator" href="jwscalculator.jnlp"> 
+	<information> 
+		<title>GitOps GuiCalculator</title> 
+		<vendor>czldl</vendor> 
+		<description>JWS to Run GuiCalculator</description> 
+		<homepage href="http://116.204.84.48:8080/jwscalculator/index.html"/> 
+		<offline-allowed/> 
+	</information> 
+	<security> 
+		<all-permissions/> 
+	</security> 
+	<update check="always" policy="always"/>
+	<resources> 
+		<j2se href="http://java.sun.com/products/autodl/j2se"  version="1.6+" /> 
+		<jar href="jwscalculator.jar" main="true"/> 
+	</resources> 
+	<application-desc name="JWSGuiCalculator" main-class="gitops.jwscalculator.JwsCalculator"/> 
+</jnlp> 
